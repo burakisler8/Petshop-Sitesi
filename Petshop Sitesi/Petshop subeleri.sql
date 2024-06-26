@@ -1,0 +1,12 @@
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (4,'Pati Petshop','İstanbul','İstiklal Cad. No: 123', 05079482312,5);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (8,'Renkli Petshop','İzmir','İelebi Cad. No: 423', 05905834591,10);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (12,'Sweet Petshop','Ankara','Kİzİlay Cad. No: 50', 05394851294,15);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (16,'Dreams Petshop','Bursa','Yenibaİ Cad. No: 40', 0563984511,20);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (20,'Dost Petshop','İanakkale','Zeytin Cad. No: 567', 05356983422,25);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (24,'Pati Petshop','Antalya','Kaİ Cad. No: 3',05621233456,30);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (28,'Evcilcan Petshop','Rize','Ova Cad. No: 56', 05345063445,35);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (32,'Yuva Petshop','Muİla','Deniz Cad. No: 12', 052112312342,40);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (36,'Tİylİ Petshop','Bolu','Kaya Cad. No: 90', 05095679854,45);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (40,'Meow Petshop','Trabzon','Gazipaİa Cad. No: 67', 05321009876,50);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (44,'Can Petshop','Muİ','Cumhuriyet Cad. No: 55', 05098765432,55);
+insert into  Petshop_subeleri ( sube_no, sube_adi, sube_sehir, sube_adres, sube_telefon, satis_no) values (48,'Peluİ Petshop','Sivas','İstasyon Cad. No: 23', 05674564321,60);

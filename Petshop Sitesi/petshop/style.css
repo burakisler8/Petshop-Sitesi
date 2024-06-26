@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color: #F21616;
+    --black-color: #0e0e0e;
+    --border: 0.1rem solid rgba(255,255,255,0.4);
+
+
+}
+
+
+
+*{
+    font-family: 'Kalnia', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+/*html kodu*/
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+
+}
+
+html::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: #fff;
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+
+
+body{
+    background-color: var(--main-color);
+}
+
+
+section{
+    padding: 3.5rem 7%;
+}
+a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;  
+}
+
+
+.heading{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 0.1rem solid rosybrown;
+    
+}
+.heading span{
+    text-transform: uppercase;
+}
+
+.search-input{
+    font-size: 1.6rem;
+    color: var(--black-color);
+    padding: 1rem;
+    text-transform: none;
+    border-radius: 3rem;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    height: auto;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.ANASAYFA {
+    min-height: 100vh;
+    background: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.ANASAYFA .content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.ANASAYFA h1 {
+    font-size: 3em;
+    color:var(--black-color);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+}
+
+/* HAYVANLAR Section */
+.HAYVANLAR {
+    padding: 50px 0;
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; 
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    background-color: #fff; 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #eee; 
+    object-fit: cover;
+    max-height: 300px;
+}
+
+.menu-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333; 
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.box h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.price {
+    color: #555; 
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box-bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #555; 
+}
+
+
+  /*HAYVAN BİTİŞ*/
+
+  /*mamalar BAŞLANGIÇ*/
+  .MAMALAR {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.MAMALAR .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.MAMALAR .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MAMALAR .box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.MAMALAR .box-head {
+    position: relative;
+}
+
+.MAMALAR .box-head img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.MAMALAR .menu-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.MAMALAR h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.MAMALAR .price {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.MAMALAR .box-bottom {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.MAMALAR .btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.MAMALAR .btn:hover {
+    background-color: #555;
+}
+
+  /*mamalar BİTİŞ*/
+
+
+ 
+ /* OYUNCAKLAR başla */
+.OYUNCAKLAR {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
+
+.OYUNCAKLAR .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.OYUNCAKLAR .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.OYUNCAKLAR .box {
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.OYUNCAKLAR .box-head {
+    position: relative;
+    overflow: hidden;
+}
+
+.OYUNCAKLAR .box img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.OYUNCAKLAR .box-head .menu-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.OYUNCAKLAR .box-head h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px;
+}
+
+.OYUNCAKLAR .box-head .price {
+    font-size: 1.2rem;
+    color: #777;
+    margin: 0 10px 10px;
+}
+
+.OYUNCAKLAR .box-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.OYUNCAKLAR .box-bottom .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.OYUNCAKLAR .box-bottom .btn:hover {
+    background-color: #555;
+}
+
+      
+  /*oyuncaklar BİTİŞ*/
+
+
+
+  /*Yaşam Alanları Başlangıç*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-head {
+    position: relative;
+}
+
+.box-head img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box-head h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box-bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box:hover .btn {
+    background-color: #555;
+}
+
+
+  /*Yaşam Alanları BİTİŞ*/
+
+  /*HAYVAN BAKIM EŞYALARI başlangıç*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box-head {
+    position: relative;
+}
+
+.box-head img {
+    width: 100%;
+    height: auto;
+}
+.menu-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.box-head h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.price {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.box-bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.btn:hover {
+    background-color: #555;
+}
+
+
+  /*HAYVAN BAKIM EŞYALARI bitiş*/
+
+  /*Aksesuar başlangıç*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box-head {
+    position: relative;
+}
+
+.box-head img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.box-head h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.price {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.box-bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+  
+  /*Aksesuar bitiş*/
+
+
+  /*footer başlangıç*/
+
+  .footer{
+    background-color: var(--black-color);
+    text-align: center;
+
+  }
+
+  .footer .search{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .search .search-input{
+    width: 30rem;
+  }
+
+  .footer .search .btn{
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+
+  }
+
+  .footer .share{
+    padding: 2rem 0;
+  }
+
+  .footer .share a{ 
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+    border-radius: 50%;
+    margin: 0.3rem;
+  }
+
+  .footer .share a:hover{
+    background-color: var(--main-color);
+  }
+
+  .footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+  }
+
+  .footer .links a{
+    background-color: var(--black-color);
+    padding: 0.7rem 2rem ;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+  }
+
+  .footer .links a:hover{
+    background-color: var(--main-color);
+    opacity: 0.7;
+
+  }
+
+  .footer .links a.active{
+    background-color: var(--main-color);
+  }
+
+  .footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 1.5rem;
+
+  }
+
+  .footer .credit span{
+    color: var(--main-color);
+
+  }
+
+  /*footer bitiş*/
+  /*şube*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.sub-branches {
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+  /*responsive başlangıç*/
+  @media (max-width:991px){
+    body{
+        display: 55%;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+    .header .logo img {
+        height: 7rem;
+    }
+
+  }
+
+  section{
+    padding: 2rem;
+  }
+
+  .DERGİ .box-container .box .box-head .name{
+    font-size: 3.4rem;
+  }
+
+  @media (max-width: 768px) {
+    .header #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 95%;
+        background-color: #fff;
+        height: calc(100vh - 9rem);
+        width: 30rem;
+        box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
+        right: -100%;
+        
+    }
+
+    .header .navbar .active{
+        right: 3rem;
+
+    }
+
+    .header .navbar a{
+        color: var(--black-color);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+
+    }
+
+  }
+
+  @media (max-width: 576px) {
+    html{
+        font-size: 50%;
+    }
+
+    
+  }
+
+
+
+  /*responsive bitiş*/
